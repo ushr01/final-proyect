@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <button id="sidebar-toggle" class="sidebar-toggle">☰ Menú</button>
+
+    <script src="../js/script.js"></script>
+    <div id="sidebar" class="sidebar">
+        <a href="#" class="close-btn" id="close-sidebar">×</a>
+        <nav> 
+    <ul>
+<li>
+    <a href="file:///C:/Users/--/OneDrive/Desktop/proyectoingles/pages/contacto.html">Click aquí para organizar tu clase de ingles!</a>
+</li>
+    </ul>
+   <ul>
+    <li>
+        <a href="file:///C:/Users/--/OneDrive/Desktop/proyectoingles/index.html#">Página principal</a>
+    
+        </li>
+   </ul>
+   </nav>
+    <h1>Aportes</h1>
+    <section class="imagenes">
+        <img src="../img/mercadonacionesjpg.jpg" alt="mercadopago">
+    </section>
+    </div>|
+    <script>
+        document.getElementById('sidebar-toggle').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.toggle('active');
+        });
+
+        document.getElementById('close-sidebar').addEventListener('click', function() {
+            document.getElementById('sidebar').classList.remove('active');
+        });
+    </script>
+</body> 
+
+   <header class="ndheader">
+    <img src="../img/Add a heading.png" alt="imagen principal">
+   </header>
+
+   <h1>Personal Information</h1>
+   <div>
+ <p class="about">I’m Matias Garcia, a 16 year old student from Buenos Aires. I’m currently in my fourth year of secondary school and my third at AACI Caballito, and I’ve reached a B1 level in English, which means I can chat fluently about everything from movies to tech!</p>
+  
+
+    <p class="about"> When I’m not at school, I’m studying web development (like building this site!) and teaching English classes to help others learn.  I’m just starting out, but I’m passionate about sharing what I know. Whether you need help with grammar, conversation, or homework, let’s figure it out together!</p>
+ 
+   </div>
